@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title><%= @title+" | Ror generator" %></title>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+
+ <div id="wrapper">
+    <div id=header>
+      <div class="zagolovok">
+      <h2><p>Ror generater for 2.3 and 3.0 versions</p></h2>
+      </div>
+      <div class=bun1> <h2> createad by Germanskij Vasil</h2>
+      </div> 
+    </div>
+    <div id=menu>
+      <div class="menu1"><%= render :partial => "layouts/mainmenu" %>
+      </div>
+    </div>
+     <div id=content> 
+        <div class=content1><p align=center><l1>Менюшка</l1></p>
+          
+           <%= render :partial => "layouts/leftmenu" %>
+           
+        </div>
+        <div class=content2> 
+            <%= yield %>
+        </div>
+        <br>
+      </div>
+<div style="clear: both;">&nbsp;</div>
+      <div id=footer>
+          <div class=copyright>
+          &#169 <h9>Copyright by Germanskij</h9>
+          </div>
+      </div>
+ </div>
+<body>
+</body>
+</html>

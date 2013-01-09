@@ -1,0 +1,285 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ *= require_tree . 
+*/
+l1{
+    font-size: 16px;
+    font-family: Segoe Script, sans-serif;
+    font-stretch: expanded;
+}
+BODY {
+    /* background: url(image.jpg)  repeat left top;*/
+    background: url(pattern_100.gif)  repeat left top;
+    color:blue;
+    align: center;
+    text-align: justify;
+    font: 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+    }
+h6{
+    font-size: small;
+  }
+h5{ 
+    font-size: small;
+    font-family: TimesNewRoman;
+    text-decoration: blink;
+  }
+h2 {
+    font-family: Segoe Script, sans-serif;
+    font-size: 120%;
+    text-decoration: none;
+    }
+h9{
+    font-size: 
+    font-family:Times new Roman;   
+    }
+#header{
+    background: url(header.jpg)  repeat left top;
+    height:115px;
+    width: 100%;
+    color: white;
+    vertical-align: middle;
+    border: none;
+    border-color: none;
+    background-attachment: fixed;
+}
+.zagolovok{
+    background: none;
+    width:350px; 
+    height:20px;
+    float: none;
+    position:relative;
+    top:0px;
+    left: 5px;
+    border: none;
+    padding: 5px;
+    margin-left: 100px;
+}
+.bun1{
+    width:368px;
+    background: url(rails.png)  no-repeat left top; 
+/*  background: yellow; */
+    height:44px;
+    width: 330px;
+    left: 50px;
+    padding-left: 190px;
+    padding-top: 20px; 
+    margin-left: 620px;   
+    }
+p {
+    margin: 0px 5px 12px;
+    text-indent: 10px;
+    }
+p1{
+    margin-left: 50px 50px 50px;
+    }
+#menu{
+    background: url(header.jpg)  repeat left top;
+   /* background: url(kilometer1.jpg)  repeat-x;*/
+    height:34px;
+    width: 100%;
+    color: yellow;
+    /*   border: outset; */
+    border-color: green;
+    background-attachment: fixed;
+    }
+.menu1{
+    width:328px;
+    height:14px;
+    background: none;
+    text-align: center;
+   /* margin-left:  100px;*/
+    position: left;
+    border: green;
+    border-top: none;
+    border-width: none;
+    border-left: none;
+    border-right: none ;
+    border-bottom: none;
+    padding: 10px;
+    float: left;
+    font-family: cursive;
+    font-size: 14px;
+    color: yellow;
+  }
+.menu2{
+    color: green;
+    width:368px;
+    height:15px;
+    background: none;
+    text-align: center;
+    text-align: bottom;
+    margin-left:  310px;  
+    padding: 0px;
+    background: yellow;
+    }
+.menu3{
+    background: red;
+    width:40px;
+    height:10px;
+   }
+#content{
+    background: none;
+    width: 1230px;
+    height: 770px;
+    /* margin:  25px;*/
+    margin-top: 14px;
+    margin-left: 0px;
+    font-family: cursive;
+    font-size: 16px;
+  }
+  
+.content1{
+    background:url(left1.jpg) ;
+    width: 250px;
+    height: 750px;
+    /* margin:  25px;*/
+    margin: 10px;
+    color:black;
+    padding-top:  5px;
+    border-color: yellow;
+    border-style: solid;
+    float: left;
+    border-width: thin;
+    text-align: center;
+  }
+  .content1 A{
+color:rgb(100,100,100);
+font-size:80%;
+font-family:times new roman;
+text-decoration:none;
+color: black;
+        }
+  .content1 A:hover{
+color:rgb(100,100,100);
+text-decoration:none;
+font-size:90%;
+color: red;
+     }
+.content1 A:link{
+color:rgb(100,100,100);
+text-decoration:none;
+font-size:90%;
+color: red;
+     }
+.content2{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 900px;
+    height: 755px;
+    color: black;
+    background: none;
+    float: left;
+    border-color: none;
+    padding: 0px;
+    border-style: none;
+    border-width: thin;
+    font-family: cursive;
+    font-size: 14px;
+  }
+.content3{
+    margin-left: 22px;    
+    width: 277px;
+    height: 740px;
+    color: black;
+    float: left;
+    background: none;
+    padding: 0px;
+    border-color: none;
+    border-style: none;
+    border-width: thin;
+  }
+.content4{
+    margin-left: 0px;
+    width: 560px;
+    vertical-align: middle;
+    height: 745px;
+    color: black;
+    float: left;
+    background: white;
+    padding: 5px;
+    border-color: yellow;
+    border-style: solid;
+    border-width: thin;
+    }
+.content5{
+    width: 269px;
+    height: 440px;
+    padding-top: 20px;
+    background: white;
+    border-color: yellow;
+    border-style: solid;
+    border-width: thin;
+    }
+.content6{
+    margin-top: 20px;
+    width: 270px;
+    height: 266px;
+    background: url(left1.jpg);
+     border-color: yellow;
+    border-style: solid;
+    border-width: thin;
+    }
+.content8{
+    margin: 0px 0px 0px;
+    width: 900px;
+    height: 740px;
+    background: white;
+    border: solid;
+    border-width: thin;
+    border-color: yellow;
+    
+    }
+#footer{
+    color:white;
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 1235px;
+    height: 40px; 
+    background: url(header.jpg)  repeat left top;;
+    padding: 10px;
+    }
+.copyright{
+    height: 20px;
+    width:  400px;
+    margin-left: 550px;
+    background: none;   
+    }
+
+a:hover {
+    width: 80px;
+    height: 400px;
+    color: #D72020;
+    text-decoration: blink ;
+    background: #FFFFFF  repeat-x;
+    }
+A:link{
+    text-decoration: none;   
+    color: green;   
+    }
+a{
+   color:white; 
+    
+    }
+#find {
+   background:url('http://blog.sribna.com/images/find.png') no-repeat 0px 0px;
+   text-indent:16px;
+   text-height: text-size;
+   font-size: 10px;
+   border:solid 1px red;
+   height: 12px;
+}
+#button{
+    height: 20px;
+    width: 50px;
+    max-width: 80px;
+    font-size: 10px;   
+}
+#wrapper {
+    min-width: 1000px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
